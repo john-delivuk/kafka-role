@@ -5,6 +5,14 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a ch
 
 ## [Unreleased](https://github.com/idealista/kafka-role/tree/develop)
 
+## Fixed
+
+- Set default value for Kafka Brokers to prevent error if not specified @john-delivuk
+
+## Added
+
+- Allow the setting of KAFKA_OPTS, useful for setting additional parameters and jmx_exporter.
+
 ## [1.7.0](https://github.com/idealista/kafka-role/tree/1.7.0) (2018-10-29)
 
 ## Fixed
